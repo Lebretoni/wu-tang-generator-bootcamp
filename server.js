@@ -31,59 +31,12 @@ const server = http.createServer(function(req, res) {
 
       const userChoiceValue = value1 + value2 + value3 + value4 + value5
 
-      let firstNameArray = ["mark", "jose", "martin", "ilunga", "thais", "mark"]
-      let lastNameArray = ["vivas", "smith", "lit", "yerr", "meep", "mark"]
+      let firstNameArray = ["Insane", "Midnight", "Misunderstood", "Lucid", "Ruff", "Phantom","Profound","Amateur","Lucky","Unlucky","Stupid","Loving","Hatred","Bad","Big","Little","Irate","Insane", "Midnight", "Misunderstood", "Lucid", "Ruff", "Phantom","Profound","Amateur","Lucky","Unlucky","Stupid","Loving","Hatred","Bad","Big","Little","Irate"]
+      let lastNameArray = ["Knight", "Demon", "Freak", "Assassin", "Ambassador", "Demon","Angel","Hunter","Love","Prophet","Madman","Leader","Mastermind","Knight", "Demon", "Freak", "Assassin", "Ambassador", "Demon","Angel","Hunter","Love","Prophet","Madman","Leader","Mastermind"]
       let firstName = firstNameArray[userChoiceValue]
       let lastName = lastNameArray[userChoiceValue]
       console.log(firstName)
       console.log(lastName)
-
-
-     //  if(userChoiceValue > 0 && userChoiceValue < 14){
-     //    firstName = "Insane"
-     //  }
-     //  else if (userChoiceValue >= 15 && userChoiceValue <= 19 ) {
-     //     firstName = "Midnight"
-     //  }else if (userChoiceValue >= 20 && userChoiceValue <= 23 ) {
-     //     firstName = "Misunderstood"
-     //  }else if (userChoiceValue >= 22 && userChoiceValue <= 26 ) {
-     //     firstName = "Lucid"
-     //  }else if (userChoiceValue >= 27 && userChoiceValue <= 31 ) {
-     //    firstName = "Ruff"
-     // }else if (userChoiceValue >= 32 && userChoiceValue <= 100 ) {
-     //     firstName  = "Phantom"
-     //  }else {
-     //     firstName  = "name unaviable, please make a valid selection"
-     //  }
-     //
-     //  var userChoiceValue2 = userChoiceValue + 3;
-     //  let lastName = ''
-     //
-     //  if(userChoiceValue2 > 0 && userChoiceValue2 < 6){
-     //     lastName = "Knight"
-     //  }
-     //  else if (userChoiceValue2 >= 7 && userChoiceValue2 <= 8 ) {
-     //     lastName = "Demon"
-     //  }else if (userChoiceValue2 >= 9 && userChoiceValue2 <= 12 ) {
-     //     lastName = " Freak "
-     //  }else if (userChoiceValue2 >= 13 && userChoiceValue2 <= 14 ) {
-     //     lastName = "Assassin"
-     //  }
-     //  else if (userChoiceValue2 >= 15 && userChoiceValue2 <= 19 ) {
-     //     lastName = "Ambassador"
-     //  }else if (userChoiceValue2 >= 20 && userChoiceValue2 <= 23 ) {
-     //     lastName = "Demon"
-     //  }else if (userChoiceValue2 >= 22 && userChoiceValue2 <= 26 ) {
-     //     lastName = "Angel"
-     //  }else if (userChoiceValue2 >= 27 && userChoiceValue2 <= 31 ) {
-     //     lastName = "Hunter"
-     //  }else if (userChoiceValue2 >= 31 && userChoiceValue2 <= 35 ) {
-     //     lastName  = "Love"
-     //  }else {
-     //     lastName  = "name unaviable, please make a valid selection"
-     //  }
-
-
 
       // line 21-23 all the code we use to get the name
 
