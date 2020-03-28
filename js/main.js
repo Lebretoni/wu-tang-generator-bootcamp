@@ -1,4 +1,5 @@
 // an event listener to make the user request  function invoked.
+//We worked on this as a group; Gardner.
 const buttonElement = document.querySelector('button')
 buttonElement.addEventListener('click', getName )
 
